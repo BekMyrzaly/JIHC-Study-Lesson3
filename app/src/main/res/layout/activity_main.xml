@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#2D2D2D"
+    android:paddingBottom="10dp"
+
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:background="#F59716"
+        >
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            app:srcCompat="@drawable/ic_baseline_arrow_left_24" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100dp"
+            android:text="My Info"
+            android:textSize="30dp"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:id="@+id/imageVw4"
+            android:layout_width="40dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="3dp"
+            app:srcCompat="@drawable/ic_baseline_not_listed_location_24"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="35dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:layout_marginLeft="85dp"
+            app:srcCompat="@drawable/images" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="30dp"
+            >
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:padding="10dp"
+                android:background="#E7E8EA"
+                android:inputType="textPersonName"
+                android:hint="  First Name"
+                android:textColorHint="#F59716"
+
+                />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:padding="10dp"
+                android:background="#E7E8EA"
+                android:inputType="textPersonName"
+                android:hint="  Last Name"
+                android:textColorHint="#F59716"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:background="#E7E8EA"
+            android:hint="  Email"
+            android:padding="10dp"
+            android:textColorHint="#F59716"
+            android:layout_marginBottom="15dp"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_featured_video_24"
+            android:ems="10"
+            android:padding="10dp"
+            android:layout_marginBottom="15dp"
+            android:inputType="number"
+            android:hint="  ID"
+            android:background="#E7E8EA"
+            android:textColorHint="#F59716"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_business_24"
+            android:ems="10"
+            android:padding="10dp"
+            android:layout_marginBottom="15dp"
+            android:inputType="textPersonName"
+            android:hint="  Company name"
+            android:background="#E7E8EA"
+            android:textColorHint="#F59716"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_directions_car_24"
+            android:ems="10"
+            android:inputType="number"
+            android:padding="10dp"
+            android:hint="  Car number"
+            android:background="#E7E8EA"
+            android:textColorHint="#F59716"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Request SingUp"
+        android:textSize="18dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginLeft="30dp"
+
+        android:backgroundTint="#F59716"/>
+
+</LinearLayout>
